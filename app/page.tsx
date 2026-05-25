@@ -6,7 +6,7 @@ import Contact from "../src/components/Contact";
 
 export default function Home() {
   return (
-    <main className="bg-[var(--background)] text-[var(--foreground)] transition-colors duration-300">
+    <main className="bg-black text-white">
       <Navbar />
       <Hero />
       <Projects />

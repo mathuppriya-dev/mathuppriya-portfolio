@@ -14,7 +14,7 @@ export default function Navbar() {
         initial={{ opacity: 0, y: -30 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
-        className="mx-auto flex max-w-7xl items-center justify-between rounded-full border border-white/10 bg-black/40 px-6 py-4 backdrop-blur-xl"
+        className="mx-auto flex max-w-7xl items-center justify-between rounded-full border border-white/10 bg-[var(--card)] px-6 py-4 backdrop-blur-xl"
       >
 
         {/* Logo */}
@@ -67,8 +67,8 @@ export default function Navbar() {
 
         {/* Mobile Menu Button */}
         <button
-  aria-label="Open Menu"
-  onClick={() => setMenuOpen(!menuOpen)}
+         aria-label="Open Menu"
+         onClick={() => setMenuOpen(!menuOpen)}
           className="flex flex-col gap-1 md:hidden"
         >
 
